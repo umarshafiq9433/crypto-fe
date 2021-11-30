@@ -1,0 +1,926 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+.header .container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.header {
+  background-image: url("./../images/header-bg.png");
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+  background-position-x: center;
+}
+
+.header-inside {
+  background-image: url("./../images/GYA\ text.png");
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+}
+
+.navbar {
+  padding-top: 30px;
+}
+
+.nav-item {
+  padding: 0px 10px;
+}
+
+.nav-link {
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255) !important;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.connect-wallet-btn {
+  background-color: #00ffcd;
+  font-family: "Roboto", sans-serif;
+  color: rgb(36, 39, 52) !important;
+  border-radius: 20px;
+  font-weight: 600;
+  padding: 6px 30px;
+  height: 40px;
+  margin: auto;
+}
+
+.connect-wallet-btn:hover {
+  background-color: #aeffef;
+}
+
+.header-inside {
+  padding: 100px 0px;
+}
+
+.heading {
+  color: #00ffcd;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+
+.description {
+  font-size: 28px;
+  color: white;
+  line-height: 30px;
+}
+
+.description2 {
+  font-size: 35px !important;
+  line-height: 30px;
+}
+
+.game-pad {
+  height: 400px;
+  background-image: url("./../images/game\ pad\ bg.png");
+  background-repeat: no-repeat;
+  padding-left: 100px;
+  animation-name: gamepad1;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes gamepad1 {
+  from {
+    background-position: 0px 0px;
+  }
+  50% {
+    background-position: 0px 15px;
+  }
+  to {
+    background-position: 0px 0px;
+  }
+}
+
+.game-pad img {
+  animation-name: gamepad;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  position: absolute;
+}
+
+@keyframes gamepad {
+  from {
+    margin-top: 0px;
+  }
+  50% {
+    margin-top: 15px;
+    transform: rotate(2deg);
+  }
+  to {
+    margin-top: 0px;
+  }
+}
+
+.main-body {
+  background-color: #011b4e;
+  height: 150%;
+  padding: 100px 0px;
+}
+
+.heading-2 {
+  color: #00ffcd;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.heading-2 span {
+  color: white;
+}
+
+.description-2 {
+  font-size: 20px;
+  color: white;
+  padding: 50px 0px;
+  line-height: 20px;
+}
+
+td.description-2 {
+  padding: 0px;
+}
+
+.description-inside {
+  color: #00ffcd !important;
+  letter-spacing: -3px;
+  padding: 0px 10px;
+}
+
+.for-players-inside > .btn {
+  background-color: #011b4e;
+  color: #00ffcd;
+  border: 1px solid #00ffcd;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px 30px;
+}
+
+.for-players-inside > span {
+  color: white;
+  margin-left: 20px;
+  border-bottom: 1px solid #00ffcd;
+  cursor: pointer;
+}
+
+.for-players-inside > .btn:hover {
+  color: #aeffef;
+  border: 1px solid #aeffef;
+}
+
+.for-players-inside > span:hover {
+  color: #aeffef;
+  border-bottom: 1px solid #aeffef;
+}
+
+.for-investors-inside .btn {
+  border-radius: 10px;
+  color: #031040;
+  background-color: #00ffcd;
+  padding: 15px 30px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.for-investors-inside .btn img {
+  margin-top: -5px;
+}
+
+.coins {
+  background-image: url("./../images/Group\ 2.png");
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  padding-left: 50px;
+  animation-name: gamepad2;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes gamepad2 {
+  from {
+    background-position: 0px 0px;
+  }
+  50% {
+    background-position: 10px 10px;
+  }
+  to {
+    background-position: 0px 0px;
+  }
+}
+
+.main-body-2 {
+  background-image: url("./../images/Group\ 5.png");
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.heading-3 {
+  color: #00ffcd;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 2px;
+  font-size: 60px;
+  font-weight: 600;
+  padding-top: 70px;
+}
+
+.heading-3 span {
+  color: white;
+}
+
+.description-3 {
+  font-size: 20px;
+  color: #031040;
+  padding: 50px 0px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.description-inside-3 {
+  letter-spacing: -3px;
+  padding: 0px 10px;
+}
+
+.logos img {
+  margin: 20px;
+}
+
+.main-body-3 {
+  background-color: #1c2443;
+  padding: 30px 0px;
+}
+
+.our-activities {
+  padding: 100px 0px;
+  text-align: center;
+}
+
+.our-activites-inside .col-md-2 .btn {
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: #1c2443;
+  color: white;
+  height: 70px;
+  width: 70px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.our-activites-inside .col-md-10 {
+  color: #00ffcd;
+  font-size: 30px;
+  padding: 0px 10px;
+  text-align: left;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.our-activities .row {
+  padding: 50px 0px;
+}
+
+.main-body-4 {
+  background-image: url("./../images/Group\ 6.png");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  margin-top: -5px;
+}
+
+.main-body-inside {
+  background-image: url("./../images/WAY.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  padding: 50px 0px;
+}
+
+.heading-4 {
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+
+.roadmap-text-right {
+  text-align: right;
+}
+
+.roadmap-text {
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 3px;
+}
+
+.roadmap-text .upper-text {
+  color: white;
+}
+
+.roadmap-text .lower-text {
+  color: #00ffcd;
+}
+
+.roadmap-text-right-first {
+  padding-top: 0px;
+}
+
+.roadmap-text .upper-text {
+  color: white;
+}
+
+.roadmap-text .lower-text {
+  color: #00ffcd;
+}
+
+.roadmap-text {
+  padding-top: 150px;
+}
+
+.roadmap-text-right-first {
+  padding-top: 0px;
+}
+
+footer {
+  color: white;
+  letter-spacing: 3px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.floating-city {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: -4%;
+}
+
+.floating-image {
+  position: absolute;
+  left: 5%;
+}
+
+.desciption2 {
+  font-size: 35px;
+}
+
+td.description-3 {
+  padding: 0px;
+}
+
+.description-inside-3 {
+  vertical-align: top;
+}
+.desc-2 {
+  color: white;
+  padding-top: 20px;
+  font-size: 22px;
+}
+
+.desc-2 span {
+  color: #00ffcd;
+  border-bottom: 1px solid rgba(0, 255, 205, 0.2);
+}
+
+.phone-coins img {
+  width: 90%;
+}
+
+.for-investors-inside-2 .btn {
+  border-radius: 20px;
+  color: #031040;
+  background-color: #00ffcd;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+.for-investors-inside-2 .btn img {
+  margin-top: -5px;
+}
+
+.body-2 {
+  background-image: url("./../images/bg\ 2.png");
+}
+
+.section-2 {
+  background-color: #215a75;
+  padding: 150px 0px;
+}
+
+.dropdown-btn {
+  background-color: #1c2443 !important;
+  border: none;
+  height: 60px !important;
+  border-radius: 20px;
+  color: white;
+  text-align: left;
+  padding: 0px 20px;
+  width: 100%;
+  border: 1px solid;
+  border-color: #011b4e;
+}
+
+.dropdown-btn:focus {
+  box-shadow: none;
+}
+
+.dropdown-menu {
+  background-color: #1c2443 !important;
+  border: none;
+  text-align: left;
+  margin-top: 0px;
+  width: 83%;
+  min-width: 83%;
+  border: 1px solid;
+  border-color: #00ffcd;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+.dropdown-btn:hover {
+  border: 1px solid;
+  border-color: #00ffcd;
+}
+
+.show .dropdown-btn {
+  border-radius: 20px 20px 0px 0px;
+  border: 1px solid;
+  border-color: #00ffcd;
+}
+
+.for-investors-inside-3 .btn {
+  border-radius: 20px;
+  color: #031040;
+  background-color: #00ffcd;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.end-heading {
+  margin-bottom: 50px;
+}
+
+.container p1 {
+  color: white;
+  font-size: 25px;
+}
+
+.container p2 {
+  color: #6b7ed8;
+  font-size: 25px;
+}
+.container p3 {
+  color: white;
+  font-size: 25px;
+}
+.container p4 {
+  color: #6b7ed8;
+  font-size: 25px;
+}
+
+.table {
+  margin-bottom: 50px;
+}
+
+.table th {
+  color: #6b7ed8;
+  border-bottom: 1px solid #2a345c;
+  border-top: none !important;
+}
+
+.table td {
+  border-top: none !important;
+  color: white;
+  border-bottom: 1px solid #2a345c;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 1px solid #2a345c !important;
+}
+
+.background-image {
+  margin-right: 4px;
+  position: relative;
+  bottom: 20px;
+  right: 24px;
+}
+
+.container h3 {
+  text-align: center;
+  color: white;
+  font-size: clamp(16px, 5vw, 34px);
+}
+
+.table-container {
+  background-color: #141c3d;
+  border-radius: 20px;
+  border: 1px solid #2a345c;
+  margin-top: 50px;
+}
+
+.section-3 {
+  padding: 100px 0px;
+}
+
+.end-heading {
+  font-size: 60px;
+}
+
+.section-3 {
+  background-color: #222945;
+}
+
+.section-2 .container .desc-2 {
+  font-size: 30px;
+}
+
+.section-2 .container .end-heading {
+  margin-bottom: 20px;
+}
+
+.table tr th,
+.table tr td {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 30px;
+}
+
+.floating-coin {
+  position: absolute;
+  margin-top: -2%;
+  width: 100%;
+  text-align: center;
+}
+
+.table tr :first-child {
+  width: 50%;
+}
+
+@media (max-width: 575px) {
+  .header {
+    background-image: url("./../images/bg.png");
+    padding-bottom: 0px;
+    background-size: auto 100%;
+  }
+
+  .heading {
+    font-size: 45px;
+  }
+  .game-pad {
+    padding: 0px;
+    background-image: url("./../images/game\ pad\ bg\ 2.png");
+    padding-left: 75px;
+    margin-left: 25px;
+    height: 320px;
+  }
+
+  .header-inside {
+    padding: 0px;
+    padding-bottom: 100px;
+  }
+
+  .game-pad img {
+    width: auto;
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .coins {
+    margin: 60px 0px;
+    padding-top: 50px;
+    background-image: url("./../images/Group\ coins\ 1.png");
+  }
+
+  .coins img {
+    width: 100%;
+  }
+
+  @keyframes gamepad2 {
+    from {
+      background-position: 20px 0px;
+    }
+    50% {
+      background-position: 20px 10px;
+    }
+    to {
+      background-position: 20px 0px;
+    }
+  }
+
+  .floating-city img {
+    width: 250px;
+  }
+
+  .logos {
+    padding-bottom: 100px;
+  }
+
+  .main-body-3 {
+    padding-top: 100px;
+  }
+
+  .logos img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-body-2 {
+    background-size: auto 100%;
+    background-position-x: center;
+  }
+
+  .description-3 {
+    font-size: 18px;
+  }
+
+  .heading-3 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .character img {
+    width: 70%;
+  }
+
+  .character {
+    text-align: center;
+  }
+
+  .connect-wallet-btn {
+    display: inline;
+  }
+
+  .navbar-dark .navbar-toggler {
+    border: 0px;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 60px;
+    background-color: #1c2443ed;
+    z-index: 100;
+    width: 100%;
+    left: 0px;
+  }
+  .floating-image {
+    display: none;
+  }
+
+  .heading-2 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .description-2 {
+    font-size: 14px;
+  }
+
+  .for-players-inside {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .for-players-inside span {
+    margin-left: 0%;
+    padding-top: 40px;
+  }
+
+  .description-2 {
+    padding: 0px;
+  }
+
+  div.description-2 {
+    padding-bottom: 50px;
+  }
+
+  .for-investors-inside {
+    text-align: center;
+  }
+
+  .for-investors-inside .btn {
+    padding: 12px 12px;
+    font-size: 16px;
+  }
+
+  .heading-3 {
+    font-size: 40px !important;
+  }
+
+  .description-3 {
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .main-body-3 .container img {
+    display: none;
+  }
+
+  .main-body-3 {
+    background-color: #232a47;
+  }
+
+  .our-activites-inside .col-md-10 {
+    font-size: 14px;
+  }
+
+  .our-activites-inside .col-md-2 .btn {
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+  }
+
+  .our-activities .row {
+    padding: 20px 0px;
+  }
+
+  .main-body-4 {
+    background-size: auto 100%;
+  }
+
+  .roadmap-text {
+    padding-top: 35px;
+  }
+
+  .roadmap-text-right-first {
+    padding-top: 0px;
+  }
+
+  .roadmap-text .upper-text,
+  .roadmap-text .lower-text {
+    font-size: 14px;
+  }
+
+  .last-image img {
+    width: 80px;
+  }
+
+  .last-image {
+    padding-top: 250px;
+  }
+
+  .main-body-inside {
+    background-image: url("./../images/WAY.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 0px 0px;
+    background-position: 0% 70%;
+  }
+
+  .heading-4 {
+    font-size: 50px;
+    padding-bottom: 50px;
+  }
+
+  .our-activities {
+    padding-top: 50px;
+  }
+
+  .main-body-4 {
+    background-image: url("./../images/Group\ 6\ -\ Copy.jpg");
+    padding-bottom: 50px;
+  }
+
+  .header {
+    background-image: url("./../images/header-bg.png");
+    background-size: auto 200%;
+  }
+
+  .header-inside {
+    background-size: 100% auto;
+    background-position: bottom;
+  }
+
+  .navbar-toggler {
+    color: #00ffcd !important;
+  }
+
+  .new-image {
+    display: none;
+  }
+
+  .page-2 .heading {
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .page-2 .desc-2 {
+    padding: 5px 0px;
+    font-weight: 500;
+    font-size: 24px;
+  }
+
+  .page-2 .for-investors-inside-2 .btn {
+    font-size: 15px;
+    border-radius: 20px;
+  }
+
+  .for-investors-inside-3 {
+    padding: 0px;
+  }
+
+  .dropdown {
+    margin: 5px 0px;
+    padding: 0px;
+  }
+
+  .dropdown-btn {
+    font-size: 25px;
+  }
+
+  .dropdown-menu {
+    width: 85%;
+  }
+
+  .end-heading {
+    margin-top: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+
+  .container p1,
+  .container p2,
+  .container p3,
+  .container p4 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .background-image {
+    text-align: center;
+  }
+
+  .table tr td,
+  .table tr th {
+    border: none;
+  }
+
+  .border-here {
+    border-bottom: 1px solid #2a345c;
+  }
+
+  .table-container {
+    padding: 50px 0px;
+  }
+
+  .table {
+    margin: 0px;
+  }
+
+  .game-pad {
+    margin-left: 0px;
+  }
+
+  .header-2 > :first-child,
+  .header-2 > :first-child .col-12 {
+    padding: 0px !important;
+  }
+
+  .phone-coins,
+  .phone-coins .col-12 {
+    padding: 0px;
+  }
+
+  .phone-coins img {
+    width: 100%;
+  }
+
+  .section-2 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .border-here th,
+  .border-here td {
+    padding-bottom: 40px;
+  }
+
+  .date td,
+  .date th {
+    padding-top: 40px;
+  }
+
+  .table-container {
+    padding: 10px 0px;
+  }
+
+  .for-investors-inside-3 .btn {
+    font-size: 30px;
+  }
+}
